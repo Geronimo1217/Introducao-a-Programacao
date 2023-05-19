@@ -1,0 +1,22 @@
+Algoritmo "semnome"
+// Disciplina   : [Introdução a programação]
+// Professor   : Zildomar Carlos Felix 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome Geronimo
+// Data atual  : 18/07/2022
+Var
+// Seção de Declarações das variáveis 
+   comp,alt,volume,larg:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   escreva("Digite o comprimento")
+   leia(comp)
+   escreva("Digite a altura")
+   leia(alt)
+   escreva("Digite a largura")
+   leia(larg)
+   volume<-comp*larg*alt
+   escreva("volume", volume)
+
+Fimalgoritmo
